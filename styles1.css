@@ -1,0 +1,34 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .left {
+    left: 0;
+    background-color: rgba(17, 109, 208, 0.756);
+  }
+  .right {
+    right: 0;
+    background-color: rgba(21, 255, 0, 0.395);
+  }  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+table {
+  border-collapse: collapse;
+}
+th {
+  width:150px;
+              text-align:center;
+              border:1px solid black;
+              padding:5px
+}

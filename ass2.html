@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <title> JavaScript form validation</title>
+    <head>
+        <link rel="stylesheet" href="styles1.css">
+    </head>
+    <body>
+        <script src="assignment2.js"></script>
+        <div class="container">
+        <div class="split left">
+        <div class="centered">
+        <h2> Registration Form</h2>
+        <form name="form" onsubmit="event.preventDefault(); validateForm();" >     
+            <div  class="form-group" ><br>
+             <label for ="name"   class="form-label"> Name </label>
+             <input type= "text" class="form-control" id="username" />
+         </div>
+         <div class="form-group"><br>
+             <label for="email" class="form-label">Email </label>
+             <input type="email" class="form-control"  id="email"/>
+         </div>
+         <div class="form-group"><br>
+             <label for="mobile" class="form-label">Mobile</label>
+             <input type ="text" class="form-control"  id ="mobile"/>
+         </div>
+         <br>
+         <div class="form-action-buttons">
+         <button  type="submit" value="Submit" >Submit</button>
+         </div>
+         </form>
+        </div>
+        </div>
+        </div>
+
+<div class="split right">
+<div class="centered">
+<h2> Employee Table</h2>
+<table class="list" >
+    <thead>
+    <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Mobile</th>
+    </tr>
+</thead>
+    <tbody id="tablebody">
+
+    </tbody>
+</table>
+  </div> 
+</div> 
+    
+    </body>
+</html>
